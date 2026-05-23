@@ -204,6 +204,19 @@ ul {
   color: var(--purple);
 }
 
+.logo__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.footer .logo__img {
+  width: 28px;
+  height: 28px;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
